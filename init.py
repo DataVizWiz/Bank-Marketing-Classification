@@ -1,1 +1,1 @@
-import pandas as pd
+import pandas as pddf = pd.read_csv('data/customers.csv', sep=';')## EDA# missing dataprint(df.describe())# stats# distributions# correlations# splits
